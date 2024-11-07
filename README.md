@@ -1,21 +1,16 @@
-.NET Game - Project
+.NET Game - Learning Project
+This repository contains a simple .NET game project that I started during my C# course. The goal was to learn and apply the fundamentals of object-oriented programming (OOP) while building a basic game using .NET technologies.
 
-This repository contains an unfinished .NET game project that I started while taking a C# course. The goal of the project is to build a simple game using .NET technologies as part of my learning process. It currently includes the foundational setup of the game, but it is not yet fully functional or complete.
+Current Progress
+Basic game structure implemented
+Core classes and logic included
+Object-Oriented Programming Concepts
+Encapsulation
 
-Current Progress: Basic game structure implemented
+Implemented in the Player class, where attributes like health, score, and name are protected and accessible only through public methods.
+Inheritance
 
-Initial classes and logic for core game functionality
+Demonstrated through the Warrior class inheriting basic features from the Character class.
+Polymorphism
 
-Application of object-oriented programming (OOP) concepts through the following classes:
-
--Player
-
-   Encapsulation: Player data such as health, score, and name are protected and accessed only through public methods.
--Character
-
-   Inheritance: The Warrior class inherits basic features from the Character class.
--Program
-
-   Polymorfism: The Program class showcases polymorphism by utilizing a common interface for various character classes, including Warrior, Knight, Assassin, 
-                Mage, Necromancer, and Druid. Each character class inherits from the base class Character and overrides the Attack() method to provide 
-                specific behavior.
+Showcased in the Program class, which uses a common interface for various character classes. Each character class, such as Warrior, Knight, Assassin, Mage, Necromancer, and Druid, inherits from the base Character class and overrides the Attack() method to provide unique behavior.
